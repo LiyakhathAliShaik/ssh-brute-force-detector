@@ -32,21 +32,23 @@ The project was developed and tested in a Kali Linux virtual machine using real 
 - Regular Expressions
 - CSV
 - VMware Workstation
+- Git and GitHub
 
 ## Project Structure
 
 ```text
 ssh-brute-force-detector/
+├── .gitignore
 ├── detector.py
 ├── sample_auth.log
 ├── requirements.txt
 ├── README.md
 ├── ssh-brute-force-detection.png
 └── reports/
-    └── detection_report.csv
+    └── .gitkeep
 ```
 
-**Note:** Real authentication logs and generated reports from local testing are excluded from this public project structure because they may contain sensitive information.
+**Note:** Real authentication logs, local backup files, and generated CSV reports from local testing are excluded from the public repository because they may contain sensitive information.
 
 ## Requirements
 
@@ -61,7 +63,7 @@ No third-party Python packages are required.
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/LiyakhathAliShaik/ssh-brute-force-detector.git
 cd ssh-brute-force-detector
 ```
 
@@ -151,11 +153,13 @@ The detector automatically generates a CSV report containing:
 - Maximum failed attempts within the configured time window
 - Alert status
 
-Default report location:
+The generated report is saved at:
 
 ```text
 reports/detection_report.csv
 ```
+
+Generated CSV reports are excluded from the public repository to avoid publishing local testing data.
 
 ## Detection Logic
 
