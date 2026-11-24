@@ -177,14 +177,6 @@ This is a basic detection heuristic. Repeated failed authentication attempts may
 6. Develop a dashboard for visualizing suspicious login activity.
 7. Explore SIEM integration.
 
-## Resume Description
-
-**SSH Brute-Force Detection Tool | Python, Kali Linux, Linux Logs**
-
-- Developed a Python-based defensive tool to analyze SSH authentication logs, extract source IP addresses, and identify repeated failed login attempts.
-- Implemented configurable time-window detection and CSV reporting to generate alerts for suspicious authentication activity.
-- Tested the detection workflow using real SSH authentication events in a controlled Kali Linux lab environment.
-
 ## Safety and Privacy
 
 This project is designed for defensive security monitoring and educational purposes.
