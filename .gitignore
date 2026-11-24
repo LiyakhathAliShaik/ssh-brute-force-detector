@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+reports/*.csv
+.DS_Store
+
+
+# Local SSH authentication logs
+real_ssh.log
+auth.log
+
+# Local backup file
+detector_backup.py

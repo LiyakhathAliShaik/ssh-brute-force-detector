@@ -1,0 +1,8 @@
+Nov 24 10:01:01 ubuntu sshd[1234]: Failed password for root from 192.0.2.10 port 4567 ssh2
+Nov 24 10:01:05 ubuntu sshd[1235]: Failed password for admin from 192.0.2.10 port 4568 ssh2
+Nov 24 10:01:10 ubuntu sshd[1236]: Failed password for test from 192.0.2.10 port 4569 ssh2
+Nov 24 10:01:15 ubuntu sshd[1237]: Failed password for root from 192.0.2.10 port 4570 ssh2
+Nov 24 10:01:20 ubuntu sshd[1238]: Failed password for user from 192.0.2.10 port 4571 ssh2
+Nov 24 10:02:01 ubuntu sshd[1239]: Failed password for admin from 198.51.100.20 port 4572 ssh2
+Nov 24 10:02:10 ubuntu sshd[1240]: Accepted password for ubuntu from 203.0.113.30 port 4573 ssh2
+Nov 24 10:08:01 ubuntu sshd[1241]: Failed password for guest from 198.51.100.40 port 4574 ssh2
